@@ -10,12 +10,12 @@ import (
 	"sync/atomic"
 	"time"
 
+	cdproto "github.com/ezoic/cdproto_v2"
 	easyjson "github.com/mailru/easyjson"
 
-	"github.com/chromedp/cdproto"
-	"github.com/chromedp/cdproto/browser"
-	"github.com/chromedp/cdproto/cdp"
-	"github.com/chromedp/cdproto/target"
+	"github.com/ezoic/cdproto_v2/browser"
+	"github.com/ezoic/cdproto_v2/cdp"
+	"github.com/ezoic/cdproto_v2/target"
 )
 
 // Browser is the high-level Chrome DevTools Protocol browser manager, handling

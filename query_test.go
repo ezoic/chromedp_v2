@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chromedp/cdproto/cdp"
-	"github.com/chromedp/cdproto/css"
-	"github.com/chromedp/cdproto/dom"
-	"github.com/chromedp/chromedp/kb"
+	"github.com/ezoic/cdproto_v2/cdp"
+	"github.com/ezoic/cdproto_v2/css"
+	"github.com/ezoic/cdproto_v2/dom"
+	"github.com/ezoic/chromedp_v2/kb"
 )
 
 func TestWaitReady(t *testing.T) {

@@ -1,5 +1,7 @@
-github.com/chromedp/cdproto v0.0.0-20200116234248-4da64dd111ac h1:T7V5BXqnYd55Hj/g5uhDYumg9Fp3rMTS6bykYtTIFX4=
-github.com/chromedp/cdproto v0.0.0-20200116234248-4da64dd111ac/go.mod h1:PfAWWKJqjlGFYJEidUM6aVIWPr0EpobeyVWEEmplX7g=
+github.com/ezoic/cdproto_v2 v0.0.0-20200116234248-4da64dd111ac h1:T7V5BXqnYd55Hj/g5uhDYumg9Fp3rMTS6bykYtTIFX4=
+github.com/ezoic/cdproto_v2 v0.0.0-20200116234248-4da64dd111ac/go.mod h1:PfAWWKJqjlGFYJEidUM6aVIWPr0EpobeyVWEEmplX7g=
+github.com/ezoic/ws v1.0.3 h1:K96MtolCw12dTr8Bp/TDPuOyaI2uS/5qsIAv7rJ51TU=
+github.com/ezoic/ws v1.0.3/go.mod h1:4+xwKx/xYBFnS6P7IJnDL9pIVtAeflfk9qUn38P3wpM=
 github.com/gobwas/httphead v0.0.0-20180130184737-2c6c146eadee h1:s+21KNqlpePfkah2I+gwHF8xmJWRjooY+5248k6m4A0=
 github.com/gobwas/httphead v0.0.0-20180130184737-2c6c146eadee/go.mod h1:L0fX3K22YWvt/FAX9NnzrNzcI4wNYi9Yku4O0LKYflo=
 github.com/gobwas/pool v0.2.0 h1:QEmUOlnSjWtnpRGHF3SauEiOsy82Cup83Vf2LcMlnc8=

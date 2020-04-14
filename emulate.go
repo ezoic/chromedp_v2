@@ -1,8 +1,8 @@
 package chromedp
 
 import (
-	"github.com/chromedp/cdproto/emulation"
-	"github.com/chromedp/chromedp/device"
+	"github.com/ezoic/cdproto_v2/emulation"
+	"github.com/ezoic/chromedp_v2/device"
 )
 
 // EmulateAction are actions that change the emulation settings for the
@@ -82,7 +82,7 @@ func ResetViewport() EmulateAction {
 
 // Device is the shared interface for known device types.
 //
-// See: github.com/chromedp/chromedp/device for a set of off-the-shelf devices
+// See: github.com/ezoic/chromedp_v2/device for a set of off-the-shelf devices
 // and modes.
 type Device interface {
 	// Device returns the device info.
@@ -91,7 +91,7 @@ type Device interface {
 
 // Emulate is an action to emulate a specific device.
 //
-// See: github.com/chromedp/chromedp/device for a set of off-the-shelf devices
+// See: github.com/ezoic/chromedp_v2/device for a set of off-the-shelf devices
 // and modes.
 func Emulate(device Device) EmulateAction {
 	d := device.Device()

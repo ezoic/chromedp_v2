@@ -6,7 +6,7 @@ question, search online and try to investigate on your own.
 #### What versions are you running?
 
 <pre>
-$ go list -m github.com/chromedp/chromedp
+$ go list -m github.com/ezoic/chromedp_v2
 $ google-chrome --version
 $ go version
 </pre>

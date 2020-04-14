@@ -4,8 +4,8 @@ import (
 	"net"
 	"net/url"
 
-	"github.com/chromedp/cdproto"
-	"github.com/chromedp/cdproto/cdp"
+	"github.com/ezoic/cdproto_v2"
+	"github.com/ezoic/cdproto_v2/cdp"
 )
 
 // forceIP tries to force the host component in urlstr to be an IP address.

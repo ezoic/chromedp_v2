@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chromedp/cdproto/cdp"
-	"github.com/chromedp/cdproto/runtime"
+	"github.com/ezoic/cdproto_v2/cdp"
+	"github.com/ezoic/cdproto_v2/runtime"
 )
 
 // dumpJS is a javascript snippet that dumps the passed element node in the

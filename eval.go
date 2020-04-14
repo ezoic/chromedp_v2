@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/chromedp/cdproto/runtime"
+	"github.com/ezoic/cdproto_v2/runtime"
 )
 
 // EvaluateAction are actions that evaluate Javascript expressions using
@@ -15,7 +15,7 @@ type EvaluateAction Action
 // Evaluate is an action to evaluate the Javascript expression, unmarshaling
 // the result of the script evaluation to res.
 //
-// When res is a type other than *[]byte, or **chromedp/cdproto/runtime.RemoteObject,
+// When res is a type other than *[]byte, or **ezoic/cdproto_v2/runtime.RemoteObject,
 // then the result of the script evaluation will be returned "by value" (ie,
 // JSON-encoded), and subsequently an attempt will be made to json.Unmarshal
 // the script result to res.

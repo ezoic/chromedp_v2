@@ -18,13 +18,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chromedp/cdproto/browser"
-	"github.com/chromedp/cdproto/cdp"
-	"github.com/chromedp/cdproto/dom"
-	"github.com/chromedp/cdproto/page"
-	"github.com/chromedp/cdproto/runtime"
-	cdpruntime "github.com/chromedp/cdproto/runtime"
-	"github.com/chromedp/cdproto/target"
+	"github.com/ezoic/cdproto_v2/browser"
+	"github.com/ezoic/cdproto_v2/cdp"
+	"github.com/ezoic/cdproto_v2/dom"
+	"github.com/ezoic/cdproto_v2/page"
+	"github.com/ezoic/cdproto_v2/runtime"
+	cdpruntime "github.com/ezoic/cdproto_v2/runtime"
+	"github.com/ezoic/cdproto_v2/target"
 )
 
 var (

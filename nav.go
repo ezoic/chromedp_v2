@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/chromedp/cdproto/page"
+	"github.com/ezoic/cdproto_v2/page"
 )
 
 // NavigateAction are actions that manipulate the navigation of the browser.

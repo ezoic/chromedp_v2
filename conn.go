@@ -6,12 +6,11 @@ import (
 	"io"
 	"net"
 
-	"github.com/gobwas/ws"
-	"github.com/gobwas/ws/wsutil"
+	cdproto "github.com/ezoic/cdproto_v2"
+	"github.com/ezoic/ws"
+	"github.com/ezoic/ws/wsutil"
 	"github.com/mailru/easyjson/jlexer"
 	"github.com/mailru/easyjson/jwriter"
-
-	"github.com/chromedp/cdproto"
 )
 
 // Transport is the common interface to send/receive messages to a target.
@@ -24,7 +23,7 @@ type Transport interface {
 	io.Closer
 }
 
-// Conn implements Transport with a gobwas/ws websocket connection.
+// Conn implements Transport with a ezoic/ws websocket connection.
 type Conn struct {
 	conn net.Conn
 
@@ -53,7 +52,7 @@ type Conn struct {
 // See https://github.com/ChromeDevTools/devtools-protocol/issues/175.
 const wsWriteBufferSize = 1 << 20
 
-// DialContext dials the specified websocket URL using gobwas/ws.
+// DialContext dials the specified websocket URL using ezoic/ws.
 func DialContext(ctx context.Context, urlstr string, opts ...DialOption) (*Conn, error) {
 	// connect
 	conn, br, _, err := ws.Dial(ctx, urlstr)
