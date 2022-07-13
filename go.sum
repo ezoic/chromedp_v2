@@ -1,7 +1,5 @@
 github.com/chromedp/sysutil v1.0.0 h1:+ZxhTpfpZlmchB58ih/LBHX52ky7w2VhQVKQMucy3Ic=
 github.com/chromedp/sysutil v1.0.0/go.mod h1:kgWmDdq8fTzXYcKIBqIYvRRTnYb9aNS9moAV0xufSww=
-github.com/ezoic/cdproto_v2 v0.0.0-20220708210441-8ed5860618ae h1:B1QBccORVUeX8b3J0Vj1DdllZYoCAoCqmYSpBSqwV5M=
-github.com/ezoic/cdproto_v2 v0.0.0-20220708210441-8ed5860618ae/go.mod h1:eubUmesJfye1joGb5SubOurtiqSKoB+IPwuE8uwcbEE=
 github.com/josharian/intern v1.0.0 h1:vlS4z54oSdjm0bgjRigI+G1HpF+tI+9rE5LLzOg8HmY=
 github.com/josharian/intern v1.0.0/go.mod h1:5DoeVV0s6jJacbCEi61lwdGj/aVlrQvzHFFd8Hwg//Y=
 github.com/mailru/easyjson v0.7.7 h1:UGYAvKxe3sBsEDzO8ZeWOSlIQfWFlxbzLZe7hwFURr0=

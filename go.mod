@@ -3,6 +3,7 @@ module github.com/ezoic/chromedp_v2
 go 1.18
 
 replace (
+	github.com/ezoic/cdproto_v2 => ../cdproto_v2
 	github.com/ezoic/httphead => ../httphead
 	github.com/ezoic/pool => ../pool
 	github.com/ezoic/ws => ../ws
@@ -10,7 +11,7 @@ replace (
 )
 
 require (
-	github.com/ezoic/cdproto_v2 v0.0.0-20220708210441-8ed5860618ae
+	github.com/ezoic/cdproto_v2 v0.0.0
 	github.com/ezoic/ws v0.0.0
 	github.com/mailru/easyjson v0.7.7
 )
